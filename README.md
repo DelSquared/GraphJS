@@ -9,6 +9,11 @@ Here is a screenshot of the demo. The central diagram is the graph and the diagr
   <img src="https://raw.githubusercontent.com/DelSquared/GraphJS/master/docs/DemoScreenshot.png" width="600"/>
 </p>
 
+## Importing
+
+To include in your HTML, use the following line:<br>
+`<script src="https://cdn.rawgit.com/DelSquared/GraphJS/817b5539/lib/Graph.js" type="text/javascript"></script>`
+
 ## Matrix Commands
 
 `nullMatrix(n)`: Creates an nxn matrix of zeros
