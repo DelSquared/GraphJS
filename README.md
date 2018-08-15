@@ -5,7 +5,6 @@ GraphJS is a library designed to facilitate computation within the context of Gr
 For a demo implemented using p5.js click [here](https://delsquared.github.io/GraphJS/)
 (Rough knowledge of the browser console is required).
 
-
 Here is a screenshot of the demo. The central diagram is the graph and the diagram at the bottom left is a representation of the adjacency matrix of said graph:
 <p align="center">
   <img src="https://raw.githubusercontent.com/DelSquared/GraphJS/master/docs/DemoScreenshot.png" width="600"/>
