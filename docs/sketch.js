@@ -1,4 +1,4 @@
-var h=750,w=1200; //predetermined canvas dimensions
+var h=window.innerHeight-20,w=1200; //predetermined canvas dimensions
 var n = 10
 var m = 20
 
