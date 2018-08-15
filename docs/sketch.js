@@ -18,6 +18,7 @@ function setup() { //setting up canvas for p5.js to work on
   strokeWeight(2); //setting line and outline thickness
 }
 
+window.alert("Open console to manipulate graph");
 console.log("type in 'g=new Graph(n,edgelist)' in the console to change g\nOptions:\n(n,randomEdges(m,n))\n(10,petersen10Edges())\n(n,completeBipartiteEdges(n,p))\n(n,completeEdges(n))\n(n,cyclicEdges(n))");
 
 function draw() { //p5.js draw function. This is called once per frame
