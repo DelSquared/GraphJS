@@ -67,3 +67,15 @@ To include in your HTML, use the following line:<br>
 `Graph.incidenceMatrix()`: A method that returns the incidence matrix of the graph
 
 `Graph.swapVertexLabel(u,v)`: A method that gives an automorphism of the graph by swapping the label of the two given vertices `u` and `v`
+
+## Planned Future Additions
+
+- A separate p5.js wrapper library to facilitate drawing and visualisation. Ideal for teaching.
+
+- Graph colouring algorithms.
+
+- Implement more matrix representation like the Seidel Matrix, etc.
+
+- Implement more Linear Algebra concepts like spectra, determinants, characteristic polynomials, etc.
+
+- Possible WebGL inclusion to accelerate matrix calculations.
