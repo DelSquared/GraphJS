@@ -1,6 +1,6 @@
 # GraphJS
 GraphJS is a library to handle computation within the context of Graph Theory for Javascript (currently in development).
-For a demo implemented using p5.js click [here](https://delsquared.github.io/GraphJS/)
+For a demo implemented using p5.js click [here](https://delsquared.github.io/GraphJS/) (Rough knowledge of the browser console is required).
 
 ## Matrix Commands
 
