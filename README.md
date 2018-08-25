@@ -1,7 +1,7 @@
 <p align="left">
   <img src="https://raw.githubusercontent.com/DelSquared/GraphJS/master/docs/GJSLogo.png" width="400"/> <b>Version: 1.0</b> </p>
 GraphJS is a library designed to facilitate computation within the context of Graph Theory for Javascript (currently in development).
-For a demo implemented using p5.js click [here (Rough knowledge of the browser console is required)](https://delsquared.github.io/GraphJS/).
+For a demo implemented using p5.js click [here](https://delsquared.github.io/GraphJS/). (Rough knowledge of the browser console is required)
 
 Here is a screenshot of the demo. The central diagram is the graph and the diagram at the bottom left is a representation of the adjacency matrix of said graph:
 <p align="center">
