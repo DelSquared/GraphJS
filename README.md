@@ -15,7 +15,7 @@ To include in your HTML, use the following line:<br>
 
 ## Matrix Commands
 
-`nullMatrix(n)`: Creates an nxn matrix of zeros
+`nullMatrix(n)`: Creates an _n_ x _n_ matrix of zeros
 
 `SumM(A)`: Sums over all the entries of `A`
 
