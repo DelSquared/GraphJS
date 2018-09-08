@@ -77,6 +77,8 @@ To include in your HTML, use the following line:<br>
 
 - Implement more matrix representation like the Seidel Matrix, etc.
 
-- Implement more Linear Algebra concepts like spectra, determinants, characteristic polynomials, etc.
+- Implement more Linear Algebra concepts like spectra, characteristic polynomials, etc.
+
+- Including Typescript in order to speed up the code by having fixed variable types.
 
 - Possible WebGL inclusion to accelerate matrix calculations.
