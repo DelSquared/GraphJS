@@ -19,7 +19,7 @@ To include in your HTML, use the following line:<br>
 
 `SumM(A)`: Sums over all the entries of `A`
 
-`det(A)`: Returns the determinant of `A` (note that this function is recursive and for an _n_ x _n_ matrix calls itself _n_ times)
+`det(A)`: Returns the determinant of `A` (Temporarily removed due to buggy and poor implementation)
 
 `Tr(A)`: Returns the trace of `A`
 
@@ -77,7 +77,7 @@ To include in your HTML, use the following line:<br>
 
 - Implement more matrix representation like the Seidel Matrix, etc.
 
-- Implement more Linear Algebra concepts like spectra, characteristic polynomials, etc.
+- Implement more Linear Algebra concepts like spectra, determinant, characteristic polynomials, etc.
 
 - Including Typescript in order to speed up the code by having fixed variable types.
 
