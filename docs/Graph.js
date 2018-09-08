@@ -1,5 +1,4 @@
-//in this version commenting was removed due to redundence
-function nullMatrix(n){ 
+function nullMatrix(n){
   var m = [];
   for (i=0;i<n;i++){
     m.push([]);
@@ -18,6 +17,23 @@ function SumM(A){
     }
   }
   return s;
+}
+
+function det(A){
+	var newA = [];
+	for (var i = 0; i<A.length-1; i++){
+		newA.push([]);
+		for (var j = 0; j<A.length-1; j++){
+			newA[i].push(A[i][j]*A[i+1][j+1] - A[i+1][j]*A[i][j+1]);
+		}
+	}
+	if (newA.length!=1){
+		newA = det(newA);
+		return newA;
+	}
+	else{
+		return newA[0][0];
+	}
 }
 
 function Tr(A){
@@ -86,8 +102,6 @@ function Mult(A,B){
 function MultTrans(M){
   return Mult(M,Trans(M));
 }
-
-//=============================================================================
 
 function Edge (u,v){
   this.u = u;
@@ -159,6 +173,7 @@ function Graph(n,edges){
     this.adjacencyMatrix[edges[i].v][edges[i].u]=1;
   }
   this.m = 0.5*SumM(this.adjacencyMatrix);
+  
   this.degreeMatrix = function(){
     var degM = nullMatrix(n);
     const arrSum = arr => arr.reduce((a,b) => a + b, 0)
@@ -167,6 +182,7 @@ function Graph(n,edges){
     }
     return degM;
   };
+  
   this.laplaceMatrix = function(){
     var lapM = nullMatrix(n);
     var degM = this.degreeMatrix();
@@ -178,6 +194,7 @@ function Graph(n,edges){
     }
     return lapM;
   };
+  
   this.incidenceMatrix = function(){
     var inM = [];
     for (i=0;i<this.n;i++){
@@ -198,8 +215,8 @@ function Graph(n,edges){
     }
     return inM;
   };
-  this.swapVertexLabel = function(u,v){
-    newAdj = nullMatrix(n);
+  
+  this.swapVertexLabel = function(u,v){ //generates an automorphism that swaps the labels of two vertices
     for (i=0;i<this.n;i++){
       for (j=0;j<this.n;j++){
         if ((i==u || i==v) && (j!=u && j!=v)){
@@ -215,5 +232,4 @@ function Graph(n,edges){
     }
     this.adjacencyMatrix = newAdj;
   };
-
 }
