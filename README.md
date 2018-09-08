@@ -19,6 +19,8 @@ To include in your HTML, use the following line:<br>
 
 `SumM(A)`: Sums over all the entries of `A`
 
+`det(A)`: Returns the determinant of `A` (note that this function is recursive and for an _n_ x _n_ matrix calls itself _n_ times)
+
 `Tr(A)`: Returns the trace of `A`
 
 `Trans(A)`: Returns the transpose of `A`
